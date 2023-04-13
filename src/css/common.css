@@ -16,3 +16,69 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  padding: 10px;
+  text-transform: uppercase;
+  border: 1px solid #808080;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #b22222;
+  cursor: pointer;
+}
+
+button[disabled] {
+  background-color: #ccc9c9;
+  color: #696969;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.value {
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #696969;
+}
+
+.label {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #696969;
+}
+
+.flatpickr-months {
+  background-color: rgb(250, 215, 231);
+}
+
+span.flatpickr-day.selected,
+span.flatpickr-day.selected:hover {
+  background-color: #b22222;
+  border-color: #b22222;
+  color: #ffffff;
+}
+
+.flatpickr-day.today.selected {
+  background: rgb(250, 215, 231);
+  border-color: #b22222;
+  color: #696969;
+}
+
+.flatpickr-time input.flatpickr-hour.selected,
+.flatpickr-time input.flatpickr-hour,
+.flatpickr-time input.flatpickr-minute,
+.flatpickr-time input.flatpickr-second {
+  font-weight: 400;
+  color: #b22222;
+}
